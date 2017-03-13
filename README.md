@@ -1,2 +1,2 @@
 # google-homepage
-google clone for html practice
+For practicing HTML: A clone of google's homepage.
