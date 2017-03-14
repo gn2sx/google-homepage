@@ -2,14 +2,34 @@ body{
   margin:0;
   padding:0;
 }
+a{
+  text-decoration:none;
+  color:#000000;
+}
+a:hover{
+  text-decoration:underline;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+ul > li{
+  display:inline;
+  padding:6px;
+}
 #logo{
   display:block;
   margin:auto;
-  padding-top:109px;
-  padding-left:300px;
+  padding-top:200px;
+  padding-left:250px;
 }
 #header{
   float:right;
+  font-size:13px;
+  text-decoration:none;
+  font-family:arial,sans-serif;
+  padding-top:15px;
 }
 #searchArea{
   display:block;
@@ -45,4 +65,32 @@ body{
 .page-button:hover{
   border:1px solid grey;
   color:black;
+}
+#apps-link{
+  display:inline-block;
+  height:28px;
+  width:30px;
+  background-image:url('images/apps.png');
+  background-repeat: no-repeat;
+  position:relative;
+  padding-right:1px;
+  margin-bottom:-10px;
+  opacity:0.6;
+}
+#apps-link:hover{
+  opacity:1;
+}
+#signin-button{
+  display:inline-block;
+  width:71px;
+  height:24px;
+  margin-right:20px;
+  background-color:#4285f4;
+  border:1px solid #4285f4;
+  border-radius:2px;
+  text-align:center;
+  padding-top:5px;
+  color:white;
+  font-family:arial,sans-serif;
+  font-weight:bold;
 }
