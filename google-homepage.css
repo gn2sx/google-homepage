@@ -18,6 +18,12 @@ ul > li{
   display:inline;
   padding:6px;
 }
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
 #logo{
   display:block;
   margin:auto;
@@ -40,6 +46,8 @@ ul > li{
 }
 #searchBar{
   width:600px;
+  height:30px;
+  border:2px solid #e0e0e0;
 }
 #buttonArea{
   display:block;
@@ -94,3 +102,27 @@ ul > li{
   font-family:arial,sans-serif;
   font-weight:bold;
 }
+#footer{
+  display:block;
+  clear:both;
+  background-color:#eaeaea;
+  bottom:0;
+  position:absolute;
+  height:28px;
+  width:100%;
+  font-size:13px;
+  font-family:arial,sans-serif;
+  padding-top:17px;
+  color:#666;
+}
+#footer li{
+  padding:15px;
+  display:inline;
+}
+#footer ul{
+  width:100%;
+}
+/*#spacer{
+  display:inline-block;
+  width:59%;
+}*/
